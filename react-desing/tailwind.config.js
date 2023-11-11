@@ -22,18 +22,23 @@ module.exports = withMT({
   theme: {
     
     extend: {
+      gridTemplateColumns: {
+        'cardsm': 'repeat(auto-fit, minmax(10rem, 1fr))     ' ,
+          'cardmd':'repeat(4, minmax(20rem, 1fr))   '  ,
+      },
       colors: {
-        sky: {
-          50: "#f0f9ff",
-          100: "#e0f2fe",
-          200: "#bae6fd",
-          300: "#7dd3fc",
-          400: "#38bdf8",
-          500: "#0ea5e9",
-          600: "#0284c7",
-          700: "#0369a1",
-          800: "#075985",
-          900: "#0c4a6e",
+        egreen: {
+          '50': '#ecfdf7',
+          '100': '#d1fae9',
+          '200': '#a6f2d6',
+          '300': '#6fe6c2',
+          '400': '#36d1a7',
+          '500': '#12b78f',
+          '600': '#069575',
+          '700': '#057762',
+          '800': '#075e4e',
+          '900': '#074d41',
+          '950': '#022c26',
         },
       },
     },
